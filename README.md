@@ -5,8 +5,8 @@ Este proyecto consiste en un reto de desarrollo backend en el que debes crear un
 ## Contexto
 
 En este reto, debes crear un servidor Express.js que exponga dos endpoints principales:
-- `**/login**`: donde se autentican las credenciales de usuario y se devuelve un token de sesión válido.
-- `**/weather**`: que recibe las coordenadas de **latitud** y **longitud** como **query parameters**, consulta la API de Open Meteo, y devuelve la temperatura en la ubicación especificada. Este endpoint debe estar asegurado y solo puede accederse si se proporciona un token de sesión válido.
+- `/login`: donde se autentican las credenciales de usuario y se devuelve un token de sesión válido.
+- `/weather`: que recibe las coordenadas de **latitud** y **longitud** como **query parameters**, consulta la API de Open Meteo, y devuelve la temperatura en la ubicación especificada. Este endpoint debe estar asegurado y solo puede accederse si se proporciona un token de sesión válido.
 
 ## Seguridad de Endpoints en Backend
 
